@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Fest</title>
+<style>
+body{font-family:Arial;margin:0;background:#f2f6ff}
+header{background:#101f40;color:white;padding:18px;text-align:center}
+.hero{text-align:center;padding:60px 10px;color:white;
+background:linear-gradient(#0006,#0006),url('https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1200') center/cover}
+button{background:orange;padding:10px;border:0;border-radius:6px}
+h2{text-align:center;color:#162d58}
+.cards{display:flex;flex-wrap:wrap;justify-content:center;gap:15px}
+.card{background:white;padding:12px;width:220px;border-radius:10px}
+.card img{width:100%;height:130px;object-fit:cover}
+.info{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;padding:20px}
+form{background:white;padding:20px;border-radius:10px}
+input,select{padding:10px;margin:7px;width:90%}
+</style>
+</head>
+<body>
+
+<header><h1>⭐ College Fest 2026</h1>
+Home | Events | Schedule | Register</header>
+
+<div class="hero">
+<h1>TECHNO CULTURAL FEST</h1>
+<p>Learn • Compete • Celebrate</p>
+<button onclick="document.getElementById('reg').scrollIntoView()">Register Now</button>
+</div>
+
+<h2>Event Categories</h2>
+<div class="cards">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400">
+<h3>Technical Events</h3><p>Coding, Quiz, Hackathon</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=400">
+<h3>Cultural Events</h3><p>Dance, Singing, Drama</p>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=400">
+<h3>Workshops</h3><p>Web Design, AI, Projects</p>
+</div>
+</div>
+
+<div class="info">
+<div><h2>Schedule</h2>
+<p>10 AM - Coding Contest</p>
+<p>12 PM - Dance Competition</p>
+<p>2 PM - Workshop</p></div>
+
+<div><h2>Coordinator</h2>
+<p>Ravi Kumar</p>
+<p>Email: fest@college.edu</p>
+<p>Rules: Follow timings and discipline.</p></div>
+
+<form id="reg">
+<h2>Registration</h2>
+<input placeholder="Your Name" required><br>
+<input type="email" placeholder="Your Email" required><br>
+<select required>
+<option value="">Select Event</option>
+<option>Coding</option><option>Dance</option>
+<option>Workshop</option>
+</select><br>
+<button type="submit">Submit</button>
+</form>
+</div>
+
+</body>
+</html>
